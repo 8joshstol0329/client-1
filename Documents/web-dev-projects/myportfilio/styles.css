@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background: white;
+    color: #222;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* navbar */
+header{
+    background: #f8d7da;
+    width: 100%;
+}
+nav{
+    display: flex;
+    align-items: center;
+    padding: 10px 40px;
+    background-color: #f8d7da;
+    box-sizing: border-box;
+}
+
+.nav-container{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+   justify-content: space-between; /* Centers the content horizontally */
+   max-width: 1200px;
+}
+
+
+.logo{
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    
+}
+
+.logo img{
+    height: 40px;
+    width: auto;
+}
+
+nav ul{
+    flex: 2; /* This gives the middle section more room */
+    display: flex;
+    justify-content: center; /* Centers the links */
+    list-style: none;
+    gap: 40px;
+    margin: 0;
+    padding: 0;
+}
+
+
+nav a{
+    text-decoration: none;
+    color: #4b5ab8;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+nav::after {
+    content: "";
+    flex: 1;
+}
+nav a:hover {
+    color: #007bff;          /* Adds a nice color change when you hover */
+    text-decoration: underline;
+}
+
+/* hero */
+
+.hero{
+   display: flex;
+   flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 80px 20px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+.hero h1{
+    font-size: 3rem;
+    color: #e29a9a;
+    margin-bottom: 20px;
+    font-family: Orbitron, sans-serif;
+}
+
+.hero p {
+    font-size: 1.15rem;
+    line-height: 1.8;   /* This is the key to making it "look better" */
+    color: #555;        /* Softens the contrast for easier reading */
+    max-width: 750px;   /* Keeps the lines from getting too long */
+    margin: 0 auto;
+    font-weight: 300;   /* Gives it that sleek, modern light look */
+}
+
+.lead-text{
+    display: block;
+    font: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 15px;
+    color: #222;
+}
+
+/* skills */
+
+.skills{
+    background: white;
+    width: 80%;
+    margin: 60px auto;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.skills h2{
+    margin-bottom: 30px;
+    font-size: 22px;
+    letter-spacing: 1px;
+}
+
+.skills-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Responsive columns */
+    gap: 20px;
+    text-align: center;
+}
+
+.skill{
+    text-align: center;
+}
+
+.skill img{
+  width: 60px !important;
+  height: 60px !important;
+  object-fit: contain;
+}
+
+.skill p{
+    font-size: 13px;
+}
+
+/* resume */
+
+.resume{
+   text-align: center;
+    padding: 50px 20px;
+}
+
+.resume-btn{
+    background: #c0392b; 
+    color: white;
+    border: none;
+    padding: 15px 35px;
+    border-radius: 50px;
+    cursor: pointer;
+    display: inline-flex;    /* Keeps icon and text aligned */
+    align-items: center;
+    gap: 10px;
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275); /* Smooth "pop" timing */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+}
+
+.resume-btn:hover{
+    background: #e74c3c;
+    transform: scale(1.05); /* Slightly enlarges the button on hover */
+    box-shadow: 0 6px 12px rgba(192, 57, 43, 0.3); /* Adds a stronger shadow on hover */
+    letter-spacing: 1px;
+}
+
+.resume-btn:active{
+    transform: scale(0.98);
+}
+
+.h2-text{
+    margin: 0;
+    font-size: 1.2rem;
+    white-space: nowrap;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+footer{
+    text-align: center;
+    padding: 40px;
+    font-size: 18px;
+}
