@@ -3,141 +3,265 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hailey Lovejoy client</title>
-    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Jost:wght@300;400;500&display=swap" rel="stylesheet" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Electrolize&family=Michroma&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Mouse+Memoirs&family=Permanent+Marker&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Electrolize&family=Michroma&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Mouse+Memoirs&family=Permanent+Marker&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <title>Z&M SERVICES</title>
+   <link rel="stylesheet" href="styles.css">
+     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
 </head>
 <body>
-    
-<!-- HERO -->
-<div class="hero">
-  <div class="hero-inner">
-    <div class="avatar-wrap">
-     <img src="images/logo.JPG" alt="Hailey Lovejoy" id="profilePhoto" />
-      <span class="avatar-initials" id="avatarInitials">LC</span>
-    </div>
-    <h1>The Locals Chair</h1>
-    <p class="hero-sub">Licensed Cosmetologist &nbsp;·&nbsp; Austin, MN</p>
-    <a href="tel:5075550000" class="phone-pill">
-      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6A19.79 19.79 0 012.12 4.18 2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
-      (507) 555-0000
-    </a>
-  </div>
-</div>
- 
-<!-- MY WORK -->
-<div class="divider"><span>My work</span></div>
-<div class="gallery-section">
-  <div class="gallery">
-    <div class="photo-slot">
-      <img src="images/gallery-1.jpg" alt="Haircut and style blowout by Hailey" />
-    </div>
-    <div class="photo-slot">
-      <img src="images/gallery-2.jpg" alt="Blonding and color correction" />
-    </div>
-    <div class="photo-slot">
-      <img src="images/gallery-3jpg.jpg" alt="Full highlight and lowlight service" />
-    </div>
 
-    <div class="photo-slot">
-      <img src="images/gallery-4.jpg"Balayage and textured layers" />
-    </div>
-    <div class="photo-slot">
-      <img src="images/gallery-5.jpg"All-over vivid color transformation" />
-    </div>
-    <div class="photo-slot">
-      <img src="images/gallery-6.jpg" alt="Precision bob haircut" />
-    </div>
-
-    <div class="photo-slot">
-      <img src="images/gallery-7.jpg" alt="Root touch-up and gloss treatment" />
-    </div>
-    <div class="photo-slot">
-      <img src="images/gallery-8.jpg" alt="Long layers with curtain bangs" />
-    </div>
-    <div class="photo-slot">
-      <img src="images/gallery-9.jpg"Dimensional brunette hair color" />
-    </div>
-
-    <div class="photo-slot">
-      <img src="images/gallery-10.jpg" alt="Platinum blonde tone and style" />
-    </div>
-    <div class="photo-slot">
-      <img src="images/gallery-11.jpg" alt="Men's fade and textured top cut" />
-    </div>
-    <div class="photo-slot">
-      <img src="images/gallery-11.jpg" alt="Special occasion formal updo styling" />
-    </div>
-  </div>
-</div>
- 
-<!-- BOOKING FORM -->
-<div class="divider"><span>Book with me</span></div>
-<div class="booking-section">
-  <div class="form-card">
-
-    <div id="formWrap">
-      <div class="field">
-        <label for="clientName">Your name</label>
-        <input type="text" id="clientName" placeholder="First and last name" autocomplete="name" />
-      </div>
-
-      <div class="field">
-        <label for="clientPhone">Phone number</label>
-        <input type="tel" id="clientPhone" placeholder="(507) 555-0000" autocomplete="tel" />
-      </div>
-
-      <div class="field">
-        <label for="service">Service</label>
-        <div class="select-wrap">
-          <select id="service">
-            <option value="" disabled selected>Select a service...</option>
-            <option>Haircut</option>
-            <option>Highlight / Lowlight</option>
-            <option>All over color</option>
-            <option>Color Correction / Blonding</option>
-            <option>Waxing</option>
-            <option>Treatment / Style</option>
-          </select>
-          <svg viewBox="0 0 24 24" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+   <!-- navbar -->
+<nav class="navbar">
+    <div class="navbar-container">
+        <div class="logo">
+            <img src="images/z&mlogo.png" alt="Z&M Services">
         </div>
-      </div>
-
-      <div class="field">
-        <label for="notes">Anything else? <span style="font-weight:300;text-transform:none;letter-spacing:0;">(optional)</span></label>
-        <textarea id="notes" placeholder="Preferred days, times, or anything I should know..."></textarea>
-      </div>
-
-      <button class="submit-btn" onclick="submitBooking()">Request appointment</button>
-      <button class="submit-btn waitlist-btn" onclick="submitWaitlist()">Join the waitlist</button>
-      <p class="form-note">I'll reach out to confirm your appointment!</p>
+        <div class="nav-right">
+            <ul class="nav-links">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <button class="cta-btn">Quote</button>
+        </div>
     </div>
- 
-    <div class="success-msg" id="successMsg">
-      <div class="check">
-        <svg viewBox="0 0 24 24" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
-      </div>
-      <h3 id="successTitle">You're all set!</h3>
-      <p id="successText">Hailey will reach out soon to confirm your appointment.</p>
+</nav>
+
+    <!-- Hero section-->
+
+
+<section class="hero" id="home" style="background-image: url('images/hero.jpg');">
+  <div class="hero-content">
+    <h1>Transform your Outdoor Space</h1>
+    <p>Design and installation of beautiful outdoor spaces that enhance your property.</p>
+    <div class="hero-cta">
+      <a href="contact.html#quote" class="btn btn-primary">Get a Free Quote</a>
+      <a href="contact.html" class="btn btn-secondary">Contact Us</a>
     </div>
- 
   </div>
+</section>
+
+
+
+<!-- ABOUT SECTION -->
+<section class="about" id="about">
+<div class="about-container">
+    <div class="about-image">
+        <img src="images/a4078140-9fcf-483d-bfb4-0a3f3dfacd92.jpg" alt="About Z&M Services">
+    </div>
+    <div class="about-content">
+        <h2>About Us</h2>
+        <h3>Tell Your Story</h3>
+        <p>We're passionate about transforming outdoor spaces with professional landscaping and maintenance services.</p>
+        <a href="#contact" class="btn btn-primary">Get in Touch</a>
+    </div>
 </div>
- 
-<footer>
-  <div class="footer-brand">The Locals Chair</div>
-  <div class="footer-copyright">
-    Hailey Lovejoy &copy; 2026 &nbsp;·&nbsp; 
-    <a href="#" class="dev-credit" target="_blank">Built by Stoltz Web Dev</a>
+   
+</section>
+
+
+    <!-- SERVICES SECTION -->
+    <section class="services" id="services">
+  <h2>Our Services</h2>
+  <p class="services-intro">
+    Professional outdoor solutions with a personal touch — designed to make your property shine.
+  </p>
+
+  <div class="services-grid">
+
+    <!-- LANDSCAPING -->
+    <div class="service-card">
+      <div class="service-icon">
+        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <defs>
+            <linearGradient id="grad-landscaping" x1="0%" y1="0%" x2="100%" y2="0%">
+              <stop offset="0%" stop-color="#3DA03D"/>
+              <stop offset="100%" stop-color="#1A6B1A"/>
+            </linearGradient>
+            <filter id="drop-landscaping" x="-20%" y="-20%" width="140%" height="140%">
+              <feDropShadow dx="0" dy="6" stdDeviation="6" flood-color="#000" flood-opacity="0.22"/>
+            </filter>
+          </defs>
+          <path fill="url(#grad-landscaping)" filter="url(#drop-landscaping)"
+                d="M2.5 19h19v2h-19zm16.84-3.15c.8.21 1.62-.26 1.84-1.06c.21-.8-.26-1.62-1.06-1.84l-5.31-1.42l-2.76-9.02L10.12 2v8.28L5.15 8.95l-.93-2.32l-1.45-.39v5.17z"/>
+        </svg>
+      </div>
+      <h3>Landscaping</h3>
+      <p>Thoughtful landscaping that keeps your property looking its best year round.</p>
+      <a href="#quote" class="btn btn-primary">Get a Quote</a>
+    </div>
+
+    <!-- JUNK REMOVAL -->
+    <div class="service-card">
+      <div class="service-icon">
+        <svg viewBox="0 0 15 15" xmlns="http://www.w3.org/2000/svg">
+          <path
+            fill="#CC6600"
+            stroke="#000000"
+            stroke-width=".30"
+            d="m10.57 4.38l-3.48.87a.38.38 0 0 1-.46-.27c-.05-.2.08-.41.28-.46l1.56-.39l-3.4-1.1L3.76 5.4l3.74.89h4.71l-.53-2.06zm3.42 3.64l-.35 3.48l-.98-.1c-.05.55-.53.94-1.07.89a.99.99 0 0 1-.87-1.1l-1.79-1.7l-5.01.97l-.11.99c-.05.55-.53.95-1.07.89a.99.99 0 0 1-.87-1.1l.1-.99l-.97-.11l.36-3.48c.07-.69.59-1.24 1.26-1.33l1.71-3.1c.1-.15.27-.24.45-.23l4.76 1.52c.2.02 2.41-.62 2.46-.43l1.02 3.37c.64.23 1.04.87.97 1.56M3.3 9.28c.44.04.88-.31 1.32-1.07l-1.07-.13V6.89c-.83.27-1.27.63-1.32 1.07c-.06.66.41 1.25 1.07 1.32m8.55.26c.55.06.93-.12 1.15-.54q-.225-.375-1.05-.45c-.83-.09-1.52.06-1.55.34c-.03.27.62.56 1.45.65M6.6 12.01c-.15-.18-.33-.36-.6-.51c-1-.55 1.5-.5 2-.5s2-.05 2 .5S8.99 13 7.88 13c-.1 0-.19-.01-.27-.02c-.19.01-.4.02-.61.02c-1.1 0-2-.22-2-.5c0-.24.68-.44 1.6-.49"
+          />
+        </svg>
+      </div>
+      <h3>Junk Removal</h3>
+      <p>Fast hasstle-free junk removal so you can reclaim your space.</p>
+      <a href="#quote" class="btn btn-primary">Book Now</a>
+    </div>
+
+    <!-- TREE REMOVAL -->
+    <div class="service-card">
+      <div class="service-icon">
+        <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+          <defs>
+            <linearGradient id="grad-tree" x1="0%" y1="0%" x2="100%" y2="0%">
+              <stop offset="0%" stop-color="#3DA03D" />
+              <stop offset="100%" stop-color="#1A6B1A" />
+            </linearGradient>
+            <filter id="drop-tree" x="-20%" y="-20%" width="140%" height="140%">
+              <feDropShadow dx="0" dy="6" stdDeviation="6" flood-color="#000000" flood-opacity="0.22" />
+            </filter>
+          </defs>
+          <path
+            d="M50 10 L70 40 L60 40 L80 70 L20 70 L40 40 L30 40 Z"
+            fill="url(#grad-tree)"
+            filter="url(#drop-tree)"
+          />
+        </svg>
+      </div>
+      <h3>Tree Removal</h3>
+      <p>Safe, professtional tree removal for storm damage, overgrowth, or dead trees.</p>
+      <a href="#quote" class="btn btn-primary">Schedule Service</a>
+    </div>
+
+    <!-- MOWING / LAWN CARE -->
+    <div class="service-card">
+      <div class="service-icon">
+       <svg width="180" height="180" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="grad4" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3DA03D"/>
+      <stop offset="100%" stop-color="#1A6B1A"/>
+    </linearGradient>
+
+    <filter id="drop4">
+      <feDropShadow dx="0" dy="6" stdDeviation="12" flood-color="#000" flood-opacity="0.22"/>
+    </filter>
+
+    <filter id="inner4">
+      <feOffset dx="0" dy="2"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feComposite operator="arithmetic" k2="-1" k3="1" in2="blur" in="SourceGraphic"/>
+      <feFlood flood-color="#000" flood-opacity="0.12"/>
+      <feComposite in2="SourceGraphic" operator="in"/>
+    </filter>
+  </defs>
+
+  <path fill="url(#grad4)" filter="url(#drop4)"
+        d="m18 494l36.35-330.4c6.728 107.62 4.086 231.82 35.556 295.67c11.205-84.926 15.707-168.18 10.562-249.01c15.225 71.69 35.543 141.68 39.468 217.14c7.395-55.935 12.667-111.52 31.798-169.41c-.76 65.19-17.16 124.9 12.677 157.47c14.433-51.01 28.992-101.9 31.46-164.88c21.27 61.862 18.342 135.82 24.948 205.02c8.417-68.06 15.28-257.84 46.907-318.17c-3.11 124.98-3.862 223.94 27.398 274.23c30.897-38.673 33.566-114.44 34.28-186.34c21.812 61.75 36.457 132.1 37.857 218.34c8.626-71.955 18.667-143.91 43.39-215.86c-5.748 88.29-1.284 156.95 19.525 194.17c13.76-55.55 25.504-111.1 29.12-166.66c18.42 82.78 13 159.59 16.706 238.69z"/>
+  <path fill="url(#grad4)" filter="url(#inner4)"
+        d="m18 494l36.35-330.4c6.728 107.62 4.086 231.82 35.556 295.67c11.205-84.926 15.707-168.18 10.562-249.01c15.225 71.69 35.543 141.68 39.468 217.14c7.395-55.935 12.667-111.52 31.798-169.41c-.76 65.19-17.16 124.9 12.677 157.47c14.433-51.01 28.992-101.9 31.46-164.88c21.27 61.862 18.342 135.82 24.948 205.02c8.417-68.06 15.28-257.84 46.907-318.17c-3.11 124.98-3.862 223.94 27.398 274.23c30.897-38.673 33.566-114.44 34.28-186.34c21.812 61.75 36.457 132.1 37.857 218.34c8.626-71.955 18.667-143.91 43.39-215.86c-5.748 88.29-1.284 156.95 19.525 194.17c13.76-55.55 25.504-111.1 29.12-166.66c18.42 82.78 13 159.59 16.706 238.69z"/>
+</svg>
+
+
+      </div>
+      <h3>Mowing</h3>
+      <p>Regular, reliable mowing to keep your lawn looking sharp all season.</p>
+      <a href="#quote" class="btn btn-primary">Schedule Service</a>
+    </div>
+
   </div>
-</footer>
+</section>
+
+
  
-<script src="home.js"></script>
+
+    <!-- TESTIMONIALS SECTION -->
+     
+<section class="testimonials" id="testimonials">
+  <h2>Testimonials</h2>
+  <p class="testimonials-intro">
+    Don't just take our word for it — see what our customers are saying on Google.
+  </p>
+  <a href="https://www.google.com/search?q=Z%26M+Services+Austin+MN+reviews" 
+     target="_blank" 
+     rel="noopener" 
+     class="btn btn-primary review-link">
+    Read Our Google Reviews
+  </a>
+</section>
+
+
+
+    <!-- CTA / QUOTE FORM SECTION -->
+    <section class="quote-section" id="contact">
+        <div class="quote-container">
+            <h2>Get a Free Quote</h2>
+            <p>Tell us about your project and we'll get back to shortly</p>
+            <form class="quote-form" action="#" method="POST">
+                <div class="form-row">
+                    <input type="text" placeholder="First Name" required>
+                    <input type="text" placeholder="Last Name" required>
+                </div>
+                <input type="email" placeholder="Email Address" required>
+                <input type="tel" placeholder="(555) 123 - 4567" required>
+                <textarea placeholder="Describe your project" rows="6" required></textarea>
+                <button type="submit" class="btn btn-primary">Get Free Quote</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+    <div class="footer-container">
+        <div class="footer-brand">
+            <img src="images/z&mlogo.png" alt="Z&M Services" class="footer-logo">
+            <p class="footer-tagline">Trusted lawn care, landscaping, and property services in [your service area].</p>
+            <div class="footer-contact">
+                <p><a href="tel:+1XXXXXXXXXX">(XXX) XXX-XXXX</a></p>
+                <p><a href="mailto:info@zmservices.com">info@zmservices.com</a></p>
+            </div>
+        </div>
+
+        <div class="footer-column">
+            <h4>Services</h4>
+            <ul>
+                <li><a href="#">Landscaping</a></li>
+                <li><a href="#">Maintenance</a></li>
+                <li><a href="#">Mowing</a></li>
+                <li><a href="#">Tree Removal</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-column">
+            <h4>Z & M Services</h4>
+            <ul>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-column">
+            <h4>Connect</h4>
+            <div class="social-icons">
+                <a href="#" aria-label="Facebook">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M22 12a10 10 0 1 0-11.5 9.87v-6.98H7.9V12h2.6V9.8c0-2.56 1.52-3.98 3.86-3.98 1.12 0 2.29.2 2.29.2v2.5h-1.29c-1.27 0-1.67.79-1.67 1.6V12h2.84l-.45 2.89h-2.39v6.98A10 10 0 0 0 22 12z"/></svg>
+                </a>
+                <a href="#" aria-label="Instagram">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2c2.72 0 3.06.01 4.12.06 1.06.05 1.79.22 2.43.47.66.26 1.22.6 1.77 1.15.55.55.9 1.11 1.15 1.77.25.64.42 1.37.47 2.43.05 1.06.06 1.4.06 4.12s-.01 3.06-.06 4.12c-.05 1.06-.22 1.79-.47 2.43a4.9 4.9 0 0 1-1.15 1.77 4.9 4.9 0 0 1-1.77 1.15c-.64.25-1.37.42-2.43.47-1.06.05-1.4.06-4.12.06s-3.06-.01-4.12-.06c-1.06-.05-1.79-.22-2.43-.47a4.9 4.9 0 0 1-1.77-1.15 4.9 4.9 0 0 1-1.15-1.77c-.25-.64-.42-1.37-.47-2.43C2.01 15.06 2 14.72 2 12s.01-3.06.06-4.12c.05-1.06.22-1.79.47-2.43.26-.66.6-1.22 1.15-1.77A4.9 4.9 0 0 1 5.45 2.53c.64-.25 1.37-.42 2.43-.47C8.94 2.01 9.28 2 12 2zm0 5a5 5 0 1 0 0 10 5 5 0 0 0 0-10zm0 8.2a3.2 3.2 0 1 1 0-6.4 3.2 3.2 0 0 1 0 6.4zm5.2-8.4a1.2 1.2 0 1 1-2.4 0 1.2 1.2 0 0 1 2.4 0z"/></svg>
+                </a>
+                <a href="#" aria-label="YouTube">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.5 12 3.5 12 3.5s-7.5 0-9.4.6A3 3 0 0 0 .5 6.2 31.6 31.6 0 0 0 0 12a31.6 31.6 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c1.9.6 9.4.6 9.4.6s7.5 0 9.4-.6a3 3 0 0 0 2.1-2.1A31.6 31.6 0 0 0 24 12a31.6 31.6 0 0 0-.5-5.8zM9.6 15.6V8.4l6.3 3.6-6.3 3.6z"/></svg>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer-bottom">
+        <p>© 2024 Z&M SERVICES. All rights reserved. <a href="#">Privacy</a> | <a href="#">Terms</a> | <a href="#">Sitemap</a></p>
+       <p class="footer-credit">By <a href="https://stoltzwebdesign.com" target="_blank" rel="noopener">Stoltz Web Design</a></p>
+    </div>
+</footer>
 </body>
 </html>
